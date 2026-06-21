@@ -1,10 +1,7 @@
 #include <iostream>
 #include <string>
-<<<<<<< HEAD
-=======
+#include <cssert>
 #include <algorithm>  //包含min/max找最大最小函数
-
->>>>>>> de4b07df7282cd9c9756ed79e3873a37d2bf6551
 using namespace std;
 
 class Payment
@@ -137,8 +134,5 @@ int main()
     }
 
     return 0;
-<<<<<<< HEAD
 }
-=======
-}
->>>>>>> de4b07df7282cd9c9756ed79e3873a37d2bf6551
+
