@@ -2,6 +2,9 @@
 #include <string>
 #include <cssert>
 #include <algorithm>  //包含min/max找最大最小函数
+#include <cassert>    //断言函数
+#include <algorithm>  //包含min/max找最大最小函数
+
 using namespace std;
 
 class Payment
@@ -13,11 +16,9 @@ public:
     Payment(const string& name)
         :username(name){ }
 
-<<<<<<< HEAD
     virtual bool pay(double amount) = 0;
-=======
+
     virtual bool pay(double amount) = 0;    //bool函数的目的是判断支付是否成功，可以自行添加条件，做一些合法性检验之类的
->>>>>>> de4b07df7282cd9c9756ed79e3873a37d2bf6551
     virtual double getFee(double amount) = 0;
 
 };
@@ -135,4 +136,7 @@ int main()
 
     return 0;
 }
+<<<<<<< HEAD
 
+=======
+>>>>>>> a21edca6b1340953f12a59b68f51c7a61fbca311
